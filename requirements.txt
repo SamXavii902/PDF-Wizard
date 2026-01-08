@@ -1,0 +1,24 @@
+# PDF Wizard CLI - Dependencies
+
+# Core PDF manipulation
+PyPDF2>=3.0.0
+PyMuPDF>=1.23.0  # Also known as fitz - for advanced compression
+
+# CLI framework
+click>=8.1.0
+
+# Image processing
+Pillow>=10.0.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# QR code generation
+qrcode[pil]>=7.4.0
+
+# Environment configuration
+python-dotenv>=1.0.0
+
+# Optional - OCR for auto-rotation (requires Tesseract installation)
+# Uncomment if you have Tesseract installed
+# pytesseract>=0.3.10
